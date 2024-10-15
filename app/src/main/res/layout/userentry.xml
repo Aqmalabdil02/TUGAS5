@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="16dp"
+    app:cardCornerRadius="16dp"
+    app:cardElevation="8dp"
+    android:backgroundTint="#FFFFFF">
+
+    <!-- Layout Container -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Product Name -->
+        <TextView
+            android:id="@+id/textname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Product: "
+            android:textColor="#333333"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:paddingBottom="8dp"/>
+
+        <!-- Quantity -->
+        <TextView
+            android:id="@+id/textquantity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Quantity: "
+            android:textColor="#333333"
+            android:textSize="18dp"
+            android:paddingBottom="8dp"/>
+
+        <!-- Price -->
+        <TextView
+            android:id="@+id/textprice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Price: "
+            android:textColor="#333333"
+            android:textSize="18dp"
+            android:paddingBottom="8dp"/>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
